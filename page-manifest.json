@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-07-01T05:05:41+00:00",
+  "pages": [
+    {
+      "id": "privacy",
+      "title": "玄门守劫隐私政策",
+      "source": "docs/app-store/privacy-policy.zh-Hans.md",
+      "output": "output/app-store-pages/privacy.html",
+      "containsPendingPlaceholder": false
+    },
+    {
+      "id": "support",
+      "title": "玄门守劫支持",
+      "source": "docs/app-store/support.zh-Hans.md",
+      "output": "output/app-store-pages/support.html",
+      "containsPendingPlaceholder": false
+    },
+    {
+      "id": "marketing",
+      "title": "玄门守劫产品页",
+      "source": "docs/app-store/marketing.zh-Hans.md",
+      "output": "output/app-store-pages/marketing.html",
+      "containsPendingPlaceholder": false
+    }
+  ],
+  "screenshotAssets": [
+    {
+      "deck": "iphone-6.9",
+      "source": "output/store/iphone-6.9/01-guard-mountain.png",
+      "output": "output/app-store-pages/assets/screenshots/iphone-6.9/01-guard-mountain.png"
+    },
+    {
+      "deck": "iphone-6.9",
+      "source": "output/store/iphone-6.9/02-read-the-omen.png",
+      "output": "output/app-store-pages/assets/screenshots/iphone-6.9/02-read-the-omen.png"
+    },
+    {
+      "deck": "iphone-6.9",
+      "source": "output/store/iphone-6.9/03-grow-after-trial.png",
+      "output": "output/app-store-pages/assets/screenshots/iphone-6.9/03-grow-after-trial.png"
+    },
+    {
+      "deck": "ipad-13",
+      "source": "output/store/ipad-13/01-guard-mountain.png",
+      "output": "output/app-store-pages/assets/screenshots/ipad-13/01-guard-mountain.png"
+    },
+    {
+      "deck": "ipad-13",
+      "source": "output/store/ipad-13/02-read-the-omen.png",
+      "output": "output/app-store-pages/assets/screenshots/ipad-13/02-read-the-omen.png"
+    },
+    {
+      "deck": "ipad-13",
+      "source": "output/store/ipad-13/03-grow-after-trial.png",
+      "output": "output/app-store-pages/assets/screenshots/ipad-13/03-grow-after-trial.png"
+    }
+  ]
+}

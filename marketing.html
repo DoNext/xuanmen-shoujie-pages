@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="玄门守劫 iOS 版本产品介绍与商店截图页面。">
+  <title>玄门守劫产品页</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23275c43'/%3E%3Cpath d='M16 5l7 7-3 14h-8L9 12l7-7z' fill='%23f7f4ec'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f4ec;
+      --ink: #172019;
+      --muted: #657064;
+      --panel: #fffdf6;
+      --line: #ded2bb;
+      --accent: #275c43;
+      --accent-2: #a33c2f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.68;
+    }
+    header, main, footer {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header {
+      padding: 28px 0 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      margin: 0 0 14px;
+      font-size: clamp(28px, 6vw, 44px);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    nav a {
+      color: var(--accent);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px 10px;
+      text-decoration: none;
+      background: color-mix(in srgb, var(--panel) 72%, transparent);
+    }
+    nav a[aria-current="page"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+    main {
+      padding: 30px 0 46px;
+    }
+    article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: clamp(18px, 4vw, 34px);
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+    h1 { margin-top: 0; font-size: clamp(28px, 5vw, 40px); }
+    h2 { margin-top: 34px; font-size: 22px; }
+    h3 { margin-top: 22px; font-size: 18px; }
+    code {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background: color-mix(in srgb, var(--line) 45%, transparent);
+    }
+    .notice {
+      margin: 0 0 18px;
+      border-left: 4px solid var(--accent-2);
+      padding: 10px 12px;
+      background: color-mix(in srgb, var(--accent-2) 9%, transparent);
+      color: var(--ink);
+    }
+    .gallery {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .gallery h2 {
+      grid-column: 1 / -1;
+      margin-bottom: 0;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--panel);
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    figcaption {
+      padding: 8px 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 18px 0 30px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101510;
+        --ink: #eef2ea;
+        --muted: #aab5a8;
+        --panel: #182018;
+        --line: #354233;
+        --accent: #8fc89e;
+        --accent-2: #e18a75;
+      }
+      nav a[aria-current="page"] { color: #101510; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="brand">玄门守劫</p>
+    <nav aria-label="App Store 页面">
+      <a href="privacy.html">隐私政策</a>
+<a href="support.html">支持</a>
+<a href="marketing.html" aria-current="page">产品页</a>
+<a href="index.html">索引</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <p class="notice">本页面已配置公开支持入口。若后续支持渠道变化，请同步更新 App Store Connect 元数据。</p>
+      <h1>玄门守劫产品页草稿</h1>
+<p>最后更新：2026-07-01</p>
+<p>《玄门守劫》是一款原创修真题材的轻量策略守关游戏。玩家执掌初立山门，在三路劫潮前布阵、观星、招募修士，并用镇劫古印扭转险局。</p>
+<h2>核心卖点</h2>
+<ul>
+<li>三路守劫：读懂每一路压力，再决定落阵和开劫时机。</li>
+<li>观星招募：用有限灵玉换取合适修士，形成短局决策。</li>
+<li>道藏成长：战报、奖励和记录沉淀下来，让失败也有方向。</li>
+<li>移动优先：界面围绕竖屏触控、清晰反馈和快速重开设计。</li>
+</ul>
+<h2>商店截图</h2>
+<p>当前本地生成的截图位于：</p>
+<ul>
+<li><code>output/store/iphone-6.9/</code></li>
+<li><code>output/store/ipad-13/</code></li>
+</ul>
+<h2>宣传短句</h2>
+<p>布阵、观星、渡劫，在三路劫潮中守住山门。</p>
+<h2>上线信息</h2>
+<ul>
+<li>营销页 URL：https://donext.github.io/xuanmen-shoujie-pages/marketing.html</li>
+<li>支持页 URL：https://donext.github.io/xuanmen-shoujie-pages/support.html</li>
+<li>隐私政策 URL：https://donext.github.io/xuanmen-shoujie-pages/privacy.html</li>
+<li>公开支持入口：https://github.com/DoNext/xuanmen-shoujie-pages/issues</li>
+</ul>
+      <section class="gallery" aria-label="商店截图预览">
+<h2>商店截图预览</h2>
+<figure>
+<img src="assets/screenshots/iphone-6.9/01-guard-mountain.png" alt="玄门守劫 iphone-6.9 商店截图 01-guard-mountain" loading="lazy">
+<figcaption>iphone-6.9 / 01-guard-mountain.png</figcaption>
+</figure>
+<figure>
+<img src="assets/screenshots/iphone-6.9/02-read-the-omen.png" alt="玄门守劫 iphone-6.9 商店截图 02-read-the-omen" loading="lazy">
+<figcaption>iphone-6.9 / 02-read-the-omen.png</figcaption>
+</figure>
+<figure>
+<img src="assets/screenshots/iphone-6.9/03-grow-after-trial.png" alt="玄门守劫 iphone-6.9 商店截图 03-grow-after-trial" loading="lazy">
+<figcaption>iphone-6.9 / 03-grow-after-trial.png</figcaption>
+</figure>
+<figure>
+<img src="assets/screenshots/ipad-13/01-guard-mountain.png" alt="玄门守劫 ipad-13 商店截图 01-guard-mountain" loading="lazy">
+<figcaption>ipad-13 / 01-guard-mountain.png</figcaption>
+</figure>
+<figure>
+<img src="assets/screenshots/ipad-13/02-read-the-omen.png" alt="玄门守劫 ipad-13 商店截图 02-read-the-omen" loading="lazy">
+<figcaption>ipad-13 / 02-read-the-omen.png</figcaption>
+</figure>
+<figure>
+<img src="assets/screenshots/ipad-13/03-grow-after-trial.png" alt="玄门守劫 ipad-13 商店截图 03-grow-after-trial" loading="lazy">
+<figcaption>ipad-13 / 03-grow-after-trial.png</figcaption>
+</figure>
+</section>
+    </article>
+  </main>
+  <footer>Generated for App Store Connect preparation. Local draft, version 1.0.</footer>
+</body>
+</html>

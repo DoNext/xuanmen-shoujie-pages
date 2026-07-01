@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="玄门守劫 iOS 版本隐私政策页面。">
+  <title>玄门守劫隐私政策</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23275c43'/%3E%3Cpath d='M16 5l7 7-3 14h-8L9 12l7-7z' fill='%23f7f4ec'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f4ec;
+      --ink: #172019;
+      --muted: #657064;
+      --panel: #fffdf6;
+      --line: #ded2bb;
+      --accent: #275c43;
+      --accent-2: #a33c2f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.68;
+    }
+    header, main, footer {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header {
+      padding: 28px 0 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      margin: 0 0 14px;
+      font-size: clamp(28px, 6vw, 44px);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    nav a {
+      color: var(--accent);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px 10px;
+      text-decoration: none;
+      background: color-mix(in srgb, var(--panel) 72%, transparent);
+    }
+    nav a[aria-current="page"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+    main {
+      padding: 30px 0 46px;
+    }
+    article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: clamp(18px, 4vw, 34px);
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+    h1 { margin-top: 0; font-size: clamp(28px, 5vw, 40px); }
+    h2 { margin-top: 34px; font-size: 22px; }
+    h3 { margin-top: 22px; font-size: 18px; }
+    code {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background: color-mix(in srgb, var(--line) 45%, transparent);
+    }
+    .notice {
+      margin: 0 0 18px;
+      border-left: 4px solid var(--accent-2);
+      padding: 10px 12px;
+      background: color-mix(in srgb, var(--accent-2) 9%, transparent);
+      color: var(--ink);
+    }
+    .gallery {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .gallery h2 {
+      grid-column: 1 / -1;
+      margin-bottom: 0;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--panel);
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    figcaption {
+      padding: 8px 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 18px 0 30px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101510;
+        --ink: #eef2ea;
+        --muted: #aab5a8;
+        --panel: #182018;
+        --line: #354233;
+        --accent: #8fc89e;
+        --accent-2: #e18a75;
+      }
+      nav a[aria-current="page"] { color: #101510; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="brand">玄门守劫</p>
+    <nav aria-label="App Store 页面">
+      <a href="privacy.html" aria-current="page">隐私政策</a>
+<a href="support.html">支持</a>
+<a href="marketing.html">产品页</a>
+<a href="index.html">索引</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <p class="notice">本页面已配置公开支持入口。若后续支持渠道变化，请同步更新 App Store Connect 元数据。</p>
+      <h1>玄门守劫隐私政策草稿</h1>
+<p>最后更新：2026-07-01</p>
+<p>本页面是《玄门守劫》的隐私政策。公开地址为：https://donext.github.io/xuanmen-shoujie-pages/privacy.html</p>
+<h2>我们收集哪些数据</h2>
+<p>当前版本不收集个人信息，不要求注册账号，不接入广告 SDK，不接入第三方分析 SDK，也不进行跨 App 或跨网站追踪。</p>
+<h2>游戏数据如何保存</h2>
+<p>游戏进度、设置、道藏记录等数据仅保存在用户设备本地。删除 App 或清除设备上的本地数据后，这些记录可能无法恢复。</p>
+<h2>第三方服务</h2>
+<p>当前版本仅使用 Capacitor 与系统 WebView 承载游戏内容，并使用系统能力提供触觉反馈。当前版本不向第三方服务器上传游戏记录、设备标识符或行为数据。</p>
+<p>如果用户通过 TestFlight、App Store 或系统渠道主动提交崩溃报告、诊断信息或反馈，这些信息可能由 Apple 按其隐私政策处理，并可能提供给开发者用于排查问题。</p>
+<h2>儿童隐私</h2>
+<p>当前版本不主动收集儿童个人信息。若你认为我们意外收到了需要删除的信息，请通过支持渠道联系我们。</p>
+<h2>联系我们</h2>
+<p>如需反馈隐私相关问题或请求支持，请通过公开支持页联系：</p>
+<ul>
+<li>支持页：https://donext.github.io/xuanmen-shoujie-pages/support.html</li>
+<li>问题反馈：https://github.com/DoNext/xuanmen-shoujie-pages/issues</li>
+</ul>
+<h2>政策更新</h2>
+<p>如果后续版本新增账号、云存档、分析、广告、支付、客服系统或其它可能涉及数据处理的能力，本政策需要同步更新，并在 App Store Connect 中更新隐私相关信息。</p>
+      
+    </article>
+  </main>
+  <footer>Generated for App Store Connect preparation. Local draft, version 1.0.</footer>
+</body>
+</html>

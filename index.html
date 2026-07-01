@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>玄门守劫 App Store 页面包</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23275c43'/%3E%3Cpath d='M16 5l7 7-3 14h-8L9 12l7-7z' fill='%23f7f4ec'/%3E%3C/svg%3E">
+  <style>
+    body {
+      margin: 0;
+      background: #f7f4ec;
+      color: #172019;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(820px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(30px, 6vw, 48px);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      gap: 12px;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      border: 1px solid #ded2bb;
+      border-radius: 8px;
+      background: #fffdf6;
+      padding: 14px;
+    }
+    a { color: #275c43; font-weight: 700; }
+    span { color: #657064; }
+    code {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background: #e9dec9;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>玄门守劫 App Store 页面包</h1>
+    <p>把本目录部署到 HTTPS 静态站点后，可将对应 URL 填入 App Store Connect。</p>
+    <ul>
+      <li>
+<a href="privacy.html">玄门守劫隐私政策</a>
+<span>可公开发布</span>
+</li><li>
+<a href="support.html">玄门守劫支持</a>
+<span>可公开发布</span>
+</li><li>
+<a href="marketing.html">玄门守劫产品页</a>
+<span>可公开发布</span>
+</li>
+    </ul>
+    <h2>建议 URL 映射</h2>
+    <p><code>/privacy.html</code> 填入 Privacy Policy URL；<code>/support.html</code> 填入 Support URL；<code>/marketing.html</code> 可填入 Marketing URL。</p>
+  </main>
+</body>
+</html>
